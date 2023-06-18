@@ -1,0 +1,28 @@
+.drop {
+  border: 2px solid black;
+  width: auto;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.drop > span {
+  opacity: 0.15;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(195, 42, 42, 0.584);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pictures {
+  border: 2px solid black;
+  text-align: center;
+}
